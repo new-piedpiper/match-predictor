@@ -156,7 +156,7 @@ export default function App() {
           <h1 className="text-lg font-semibold text-gray-800">Cricket Predictor</h1>
           <p className="text-sm text-gray-600">
             Add <code className="text-xs bg-gray-100 px-1 rounded">VITE_SUPABASE_URL</code> and{' '}
-            <code className="text-xs bg-gray-100 px-1 rounded">VITE_SUPABASE_ANON_KEY</code> to{' '}
+            <code className="text-xs bg-gray-100 px-1 rounded">VITE_SUPABASE_PUBLISHABLE_DEFAULT_KEY</code> to{' '}
             <code className="text-xs bg-gray-100 px-1 rounded">.env</code>, then restart the dev server.
           </p>
         </div>

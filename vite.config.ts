@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
+  base: './',
   // Dev: use VITE_API_BASE_URL=http://localhost:5173 so the browser calls same origin
   // and avoids CORS preflight (OPTIONS). Requests to /api/* are forwarded to Spring Boot.
   server: {
